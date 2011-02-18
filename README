@@ -1,0 +1,9 @@
+This was meant to be a signup form using arping and a
+ISC dhcpd.leases file on an OpenBSD server for authenticating
+students in campus housing. Priorities changed and the signup
+form was postponed indefinately.
+
+Right now it essentially parses the dhcpd.leases file to
+get a MAC address to compare to the arping results. Both would
+have to match to authenticate the user and put them in the system
+to have their Cisco port activated.
